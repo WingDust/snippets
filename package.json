@@ -1,0 +1,43 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingdust/snippets.git"
+  },
+  "keywords": [],
+  "author": "wingdust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wingdust/snippets/issues"
+  },
+  "homepage": "https://github.com/wingdust/snippets#readme",
+"engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+
+}
