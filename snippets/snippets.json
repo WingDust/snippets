@@ -13,7 +13,7 @@
     },
     "map": {
         "prefix": "map",
-        "body": "${1}.map((${2:item}) => {\n\t${0}\n});",
+        "body": "${1}.map((${2:item},index) => {\n\t${0}\n});",
         "description": "map"
     },
     "reduce": {
